@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseStrings", "ReverseStrings\ReverseStrings.csproj", "{AF5316C2-6598-467F-8469-A21B3AA5B9F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseStrings", "ReverseStrings\ReverseStrings.csproj", "{AF5316C2-6598-467F-8469-A21B3AA5B9F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackSum", "StackSum\StackSum.csproj", "{69B4F8DC-BD8B-4C31-93B4-9E3B3819AFCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackSum", "StackSum\StackSum.csproj", "{69B4F8DC-BD8B-4C31-93B4-9E3B3819AFCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{C93C1246-2D67-4610-9A3D-517199BC7B65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{C93C1246-2D67-4610-9A3D-517199BC7B65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingBrackets", "MatchingBrackets\MatchingBrackets.csproj", "{2B9EBEF9-A58A-4564-9041-19873859CA9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatchingBrackets", "MatchingBrackets\MatchingBrackets.csproj", "{2B9EBEF9-A58A-4564-9041-19873859CA9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintEvenNumbers", "PrintEvenNumbers\PrintEvenNumbers.csproj", "{3A1F320B-7D82-4C35-BCB3-48F11473AEF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintEvenNumbers", "PrintEvenNumbers\PrintEvenNumbers.csproj", "{3A1F320B-7D82-4C35-BCB3-48F11473AEF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supermarket", "Supermarket\Supermarket.csproj", "{9A55A0D1-BB73-4305-B1F5-4DAC361008F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3A1F320B-7D82-4C35-BCB3-48F11473AEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A1F320B-7D82-4C35-BCB3-48F11473AEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A1F320B-7D82-4C35-BCB3-48F11473AEF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A55A0D1-BB73-4305-B1F5-4DAC361008F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A55A0D1-BB73-4305-B1F5-4DAC361008F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A55A0D1-BB73-4305-B1F5-4DAC361008F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A55A0D1-BB73-4305-B1F5-4DAC361008F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
