@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasionBoutique", "FasionBou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SongsQueue", "SongsQueue\SongsQueue.csproj", "{D6827C05-D988-4D5C-AD38-B09CF02644E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckTour", "TruckTour\TruckTour.csproj", "{615A9437-D198-4D43-BB33-3F3D6A71B9BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{D6827C05-D988-4D5C-AD38-B09CF02644E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6827C05-D988-4D5C-AD38-B09CF02644E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6827C05-D988-4D5C-AD38-B09CF02644E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{615A9437-D198-4D43-BB33-3F3D6A71B9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615A9437-D198-4D43-BB33-3F3D6A71B9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615A9437-D198-4D43-BB33-3F3D6A71B9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{615A9437-D198-4D43-BB33-3F3D6A71B9BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
