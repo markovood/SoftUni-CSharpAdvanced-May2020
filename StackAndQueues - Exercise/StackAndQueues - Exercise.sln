@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumAndMinimumElement", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFood", "FastFood\FastFood.csproj", "{B45DA0C7-CB4B-4FE2-A950-44B3F0155828}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasionBoutique", "FasionBoutique\FasionBoutique.csproj", "{75451C1B-BA72-48EB-B945-DBDF204FE215}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B45DA0C7-CB4B-4FE2-A950-44B3F0155828}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B45DA0C7-CB4B-4FE2-A950-44B3F0155828}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B45DA0C7-CB4B-4FE2-A950-44B3F0155828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75451C1B-BA72-48EB-B945-DBDF204FE215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75451C1B-BA72-48EB-B945-DBDF204FE215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75451C1B-BA72-48EB-B945-DBDF204FE215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75451C1B-BA72-48EB-B945-DBDF204FE215}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
