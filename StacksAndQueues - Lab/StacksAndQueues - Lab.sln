@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supermarket", "Supermarket\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotPotatoe", "HotPotatoe\HotPotatoe.csproj", "{A14A9E61-661D-4DA4-97A2-9B1C402313E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficJam", "TrafficJam\TrafficJam.csproj", "{E0F04B21-EB8B-4ED3-83AF-1F64CDC05918}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{A14A9E61-661D-4DA4-97A2-9B1C402313E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A14A9E61-661D-4DA4-97A2-9B1C402313E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A14A9E61-661D-4DA4-97A2-9B1C402313E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F04B21-EB8B-4ED3-83AF-1F64CDC05918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F04B21-EB8B-4ED3-83AF-1F64CDC05918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F04B21-EB8B-4ED3-83AF-1F64CDC05918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F04B21-EB8B-4ED3-83AF-1F64CDC05918}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
