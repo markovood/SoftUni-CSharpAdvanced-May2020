@@ -12,7 +12,7 @@ namespace LineNumbers
             char separator = Path.DirectorySeparatorChar;
             string inputFile = "text.txt";
             string outputFile = "lineNumbersOutput.txt";
-            string resourcePath = @$"..{separator}..{separator}..{separator}..{separator}Resources";
+            string resourcePath = $"..{separator}..{separator}..{separator}..{separator}Resources";
 
             string pathIn = Path.Combine(resourcePath, inputFile);
             string pathOut = Path.Combine(resourcePath, outputFile);

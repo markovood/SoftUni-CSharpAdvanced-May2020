@@ -11,7 +11,7 @@ namespace EvenLines
         {
             char separator = Path.DirectorySeparatorChar;
             string file = "text.txt";
-            string resourcePath = @$"..{separator}..{separator}..{separator}..{separator}Resources";
+            string resourcePath = $"..{separator}..{separator}..{separator}..{separator}Resources";
 
             string pathIn = Path.Combine(resourcePath, file);
             using (var reader = new StreamReader(pathIn))

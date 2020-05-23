@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenLines", "EvenLines\EvenLines.csproj", "{8C295C56-8BF3-4290-93DC-3D9026FBD21D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenLines", "EvenLines\EvenLines.csproj", "{8C295C56-8BF3-4290-93DC-3D9026FBD21D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineNumbers", "LineNumbers\LineNumbers.csproj", "{C741B823-84FD-431F-AF0B-CE1D7CBCFF24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LineNumbers", "LineNumbers\LineNumbers.csproj", "{C741B823-84FD-431F-AF0B-CE1D7CBCFF24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCount", "WordCount\WordCount.csproj", "{508A3A66-1BA4-4093-9317-29F0242F6338}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C741B823-84FD-431F-AF0B-CE1D7CBCFF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C741B823-84FD-431F-AF0B-CE1D7CBCFF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C741B823-84FD-431F-AF0B-CE1D7CBCFF24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508A3A66-1BA4-4093-9317-29F0242F6338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508A3A66-1BA4-4093-9317-29F0242F6338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508A3A66-1BA4-4093-9317-29F0242F6338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508A3A66-1BA4-4093-9317-29F0242F6338}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
