@@ -9,11 +9,11 @@ namespace GenericSwapMethodIntegers
         public static void Main()
         {
             int N = int.Parse(Console.ReadLine());
-            List<Box<string>> boxes = new List<Box<string>>();
+            List<Box<int>> boxes = new List<Box<int>>();
             for (int i = 0; i < N; i++)
             {
-                string str = Console.ReadLine();
-                Box<string> box = new Box<string>(str);
+                int integer = int.Parse(Console.ReadLine());
+                Box<int> box = new Box<int>(integer);
                 boxes.Add(box);
             }
 
