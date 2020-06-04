@@ -10,15 +10,15 @@ namespace Collection
         {
             string cmd = Console.ReadLine();
 
-            ListyIterator<string> iterator;
+            ListyIterator<string> collection;
             string[] cmdArgs = cmd.Split(' ', StringSplitOptions.RemoveEmptyEntries);
             if (cmdArgs.Length == 1)
             {
-                iterator = new ListyIterator<string>(new List<string>());
+                collection = new ListyIterator<string>(new List<string>());
             }
             else
             {
-                iterator = new ListyIterator<string>(cmdArgs.Skip(1).ToList());
+                collection = new ListyIterator<string>(cmdArgs.Skip(1).ToList());
             }
 
             while (true)
@@ -32,12 +32,12 @@ namespace Collection
                 switch (cmd)
                 {
                     case "Move":
-                        Console.WriteLine(iterator.Move());
+                        Console.WriteLine(collection.Move());
                         break;
                     case "Print":
                         try
                         {
-                            iterator.Print();
+                            collection.Print();
                         }
                         catch (InvalidOperationException ex)
                         {
@@ -46,10 +46,10 @@ namespace Collection
 
                         break;
                     case "HasNext":
-                        Console.WriteLine(iterator.HasNext());
+                        Console.WriteLine(collection.HasNext());
                         break;
                     case "PrintAll":
-                        Console.WriteLine(string.Join(' ', iterator));
+                        Console.WriteLine(string.Join(' ', collection));
                         break;
                 }
             }
