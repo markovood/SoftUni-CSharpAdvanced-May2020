@@ -12,8 +12,8 @@ namespace WordCount
             char separator = Path.DirectorySeparatorChar;
             string textInput = "text.txt";
             string wordsInput = "words.txt";
-            string actualResultOutput = "actualResultOutput.txt";
-            string expectedResultOutput = "expectedResultOutput.txt";
+            string actualResultOutput = "actualResult.txt";
+            string expectedResultOutput = "expectedResult.txt";
 
             string resourcePath = $"..{separator}..{separator}..{separator}..{separator}Resources";
 

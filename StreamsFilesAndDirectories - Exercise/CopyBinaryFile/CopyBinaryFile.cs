@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 
 namespace CopyBinaryFile
 {
@@ -8,11 +7,11 @@ namespace CopyBinaryFile
         public static void Main()
         {
             char separator = Path.DirectorySeparatorChar;
-            string fileToCopy = "pic.jpg";
+            string fileToCopy = "copyMe.png";
             string fileDirectory = $"..{separator}..{separator}..{separator}..{separator}Resources";
 
             string fileToCopyPath = Path.Combine(fileDirectory, fileToCopy);
-            string copiedFilePath = Path.Combine(fileDirectory, "pic(copy).jpg");
+            string copiedFilePath = Path.Combine(fileDirectory, Path.GetFileNameWithoutExtension(fileToCopyPath) + "(Copy).png");
 
             CopyFile(fileToCopyPath, copiedFilePath);
         }

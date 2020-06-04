@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
@@ -34,7 +33,7 @@ namespace LineNumbers
                 }
             }
 
-            File.AppendAllLines(pathOut, resultLines);
+            File.WriteAllLines(pathOut, resultLines);
         }
 
         private static string CountLettersAndPunctuations(int lineNumber, string line)
