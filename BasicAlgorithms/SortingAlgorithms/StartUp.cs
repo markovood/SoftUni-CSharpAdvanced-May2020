@@ -12,7 +12,8 @@ namespace SortingAlgorithms
                 .Select(int.Parse)
                 .ToArray();
 
-            MergeSort<int>.Sort(unsorted);
+            //MergeSort<int>.Sort(unsorted);
+            QuickSort<int>.Sort(unsorted);
             Console.WriteLine(string.Join(' ', unsorted));
         }
     }
