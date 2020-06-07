@@ -4,72 +4,58 @@ namespace SortingAlgorithms
 {
     public static class MergeSort<T> where T : IComparable<T>
     {
-        private static T[] aux;
-
+        // Array 'T[] arr' has the items to sort; array 'T[] aux' is a help array.
         public static void Sort(T[] arr)
         {
-            aux = new T[arr.Length];
-            Sort(arr, 0, arr.Length - 1);
+            T[] aux = new T[arr.Length];
+            arr.CopyTo(aux, 0);// one time copy of arr to aux
+            Sort(aux, 0, arr.Length, arr);// sort data from aux into arr
         }
 
-        private static void Sort(T[] arr, int lo, int hi)
+        // Sort the given array arr using array aux as a source.
+        // iStart is inclusive; iEnd is exclusive (arr[iEnd] is not in the set).
+        private static void Sort(T[] source, int iStart, int iEnd, T[] destination)
         {
-            // only one element -> already sorted
-            if (lo >= hi)
-            {
+            // size == 0 || size == 1 consider it sorted by definition
+            if (iEnd - iStart <= 1)
+            { 
                 return;
-            }
+            }   
+            
+            // split the array longer than 1 item into halves
+            int iMiddle = (iEnd + iStart) / 2;  // mid point
 
-            int mid = (lo + hi) / 2;
+            // recursively sort both arrays
+            Sort(destination, iStart, iMiddle, source); // sort the left one
+            Sort(destination, iMiddle, iEnd, source);   // sort the right one
 
-            // split it into two 'sub-arrays', sort them recursively and then merge them on the way up 
-            Sort(arr, lo, mid);
-            Sort(arr, mid + 1, hi);
-            Merge(arr, lo, mid, hi);
+            // merge the resulting arrays
+            Merge(source, iStart, iMiddle, iEnd, destination);
         }
 
-        private static void Merge(T[] arr, int lo, int mid, int hi)
+        // Left source half is aux[from iBegin to iMiddle - 1]
+        // Right source half is aux[from iMiddle to iEnd - 1]
+        // Result is arr[from iBegin to iEnd - 1]
+        private static void Merge(T[] source, int iBegin, int iMiddle,int iEnd, T[] destination)
         {
-            if (IsLess(arr[mid], arr[mid + 1]))
-            {
-                // if the largest element in the left is smaller than the smallest in the right, the two
-                // subarrays are already merged
-                return;
-            }
+            int i = iBegin;
+            int j = iMiddle;
 
-            // transfer all elements to the auxiliary array
-            for (int index = lo; index < hi + 1; index++)
+            // While there are elements in the left or right
+            for (int k = iBegin; k < iEnd; k++)
             {
-                aux[index] = arr[index];
-            }
-
-            // merge them back in the main array
-            int i = lo;
-            int j = mid + 1;
-            for (int k = lo; k <= hi; k++)
-            {
-                if (i > mid)
+                // If left element exists and is <= existing right element
+                if (i < iMiddle && (j >= iEnd || source[i].CompareTo(source[j]) <= 0))
                 {
-                    arr[k] = aux[j++];
-                }
-                else if (j > hi)
-                {
-                    arr[k] = aux[i++];
-                }
-                else if (IsLess(aux[i], aux[j]))
-                {
-                    arr[k] = aux[i++];
+                    destination[k] = source[i];
+                    i++;
                 }
                 else
                 {
-                    arr[k] = aux[j++];
+                    destination[k] = source[j];
+                    j++;
                 }
             }
-        }
-
-        private static bool IsLess(T value1, T value2)
-        {
-            return value1.CompareTo(value2) < 0;
         }
     }
 }
