@@ -5,13 +5,15 @@ VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveArraySum", "RecursiveArraySum\RecursiveArraySum.csproj", "{E0473999-65A0-45DA-B447-B1858728FA39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveFactorial", "RecursiveFactorial\RecursiveFactorial.csproj", "{6535033A-CD23-4071-AB59-7ECF62DE076A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveFactorial", "RecursiveFactorial\RecursiveFactorial.csproj", "{6535033A-CD23-4071-AB59-7ECF62DE076A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfCoins", "SumOfCoinsSkeleton\SumOfCoins.csproj", "{FD8A6254-4CA0-4516-A475-9E1C219ED3DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetCover", "SetCoverSkeleton\SetCover.csproj", "{909541FC-F819-4F7F-9D70-2CB2B3D4604A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingAlgorithms", "SortingAlgorithms\SortingAlgorithms.csproj", "{D0A91CF3-5F40-42BD-BC6B-BD6DBDA2C87E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{B92BF9E9-EAFB-4614-9E8E-BB8E76E74A38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{D0A91CF3-5F40-42BD-BC6B-BD6DBDA2C87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0A91CF3-5F40-42BD-BC6B-BD6DBDA2C87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0A91CF3-5F40-42BD-BC6B-BD6DBDA2C87E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B92BF9E9-EAFB-4614-9E8E-BB8E76E74A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92BF9E9-EAFB-4614-9E8E-BB8E76E74A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92BF9E9-EAFB-4614-9E8E-BB8E76E74A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92BF9E9-EAFB-4614-9E8E-BB8E76E74A38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
