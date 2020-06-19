@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatingApp", "DatingApp\DatingApp.csproj", "{E51D549B-0CA4-43FA-8731-7838FAB8FF15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookWorm", "BookWorm\BookWorm.csproj", "{B876503B-4422-4C93-B4E9-54FCBCB0FA4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbits", "Rabbits\Rabbits.csproj", "{160CCA27-1960-4C48-BB83-6F3029218BE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E51D549B-0CA4-43FA-8731-7838FAB8FF15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E51D549B-0CA4-43FA-8731-7838FAB8FF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E51D549B-0CA4-43FA-8731-7838FAB8FF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E51D549B-0CA4-43FA-8731-7838FAB8FF15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B876503B-4422-4C93-B4E9-54FCBCB0FA4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B876503B-4422-4C93-B4E9-54FCBCB0FA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B876503B-4422-4C93-B4E9-54FCBCB0FA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B876503B-4422-4C93-B4E9-54FCBCB0FA4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160CCA27-1960-4C48-BB83-6F3029218BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160CCA27-1960-4C48-BB83-6F3029218BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160CCA27-1960-4C48-BB83-6F3029218BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160CCA27-1960-4C48-BB83-6F3029218BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B70602B7-EFBA-41B8-9930-B1C516FCD78C}
+	EndGlobalSection
+EndGlobal
