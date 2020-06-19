@@ -17,9 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericCountMethodDouble", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuple", "Tuple\Tuple.csproj", "{6B975F43-AB2C-4AFF-80F0-F84DD2CCF22E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threeuple", "Threeuple\Threeuple.csproj", "{A3EB9A9F-BDD1-4618-861C-068AB5CE4FED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threeuple", "Threeuple\Threeuple.csproj", "{A3EB9A9F-BDD1-4618-861C-068AB5CE4FED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLinkedList", "CustomLinkedList\CustomLinkedList.csproj", "{4896036C-6CB6-4222-B253-D4C19BFA9FA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomDoublyLinkedList", "CustomDoublyLinkedList\CustomDoublyLinkedList.csproj", "{75462BCD-EC7B-49AE-B181-506DF11F13F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,10 +59,10 @@ Global
 		{A3EB9A9F-BDD1-4618-861C-068AB5CE4FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3EB9A9F-BDD1-4618-861C-068AB5CE4FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3EB9A9F-BDD1-4618-861C-068AB5CE4FED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4896036C-6CB6-4222-B253-D4C19BFA9FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4896036C-6CB6-4222-B253-D4C19BFA9FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4896036C-6CB6-4222-B253-D4C19BFA9FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4896036C-6CB6-4222-B253-D4C19BFA9FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75462BCD-EC7B-49AE-B181-506DF11F13F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75462BCD-EC7B-49AE-B181-506DF11F13F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75462BCD-EC7B-49AE-B181-506DF11F13F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75462BCD-EC7B-49AE-B181-506DF11F13F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

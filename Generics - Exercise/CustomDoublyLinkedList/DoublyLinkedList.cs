@@ -1,4 +1,4 @@
-﻿namespace CustomLinkedList
+﻿namespace CustomDoublyLinkedList
 {
     using System;
 
